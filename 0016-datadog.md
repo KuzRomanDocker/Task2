@@ -28,7 +28,7 @@ We want to decide to use Enhanced monitoring with Lambda functions or use the da
 
 * [Amazon CloudWatch pricing](https://aws.amazon.com/cloudwatch/pricing/)
 
-* If we choose "Native", we will need to select EC2 and configure the data agent on EC2.Enabling more integrations may increase Agent resource consumption.
+* If we choose "Native", we will need to select EC2 and configure the data agent on EC2. Enabling more integrations may increase Agent resource consumption.
 * For example:
 
 |Instance Types| Average CPU usage per month| Billing Option | Monthly Cost|
