@@ -25,10 +25,16 @@ We want to decide to use Enhanced monitoring with Lambda functions or use the da
 |41.353 GB x 0.50 USD per GB = 20.677 USD for log events|
 |2.40 USD + 20.677 USD = 23.077 USD|
 | Monitoring with Lambda Insights cost (monthly): 23.077 USD|
+
 * [Amazon CloudWatch pricing](https://aws.amazon.com/cloudwatch/pricing/)
+
 * If we choose "Native", we will need to select EC2 and configure the data agent on EC2.Enabling more integrations may increase Agent resource consumption.
 * For example:
-- We choose c5.xlarge On-Demand it will cost about $ 24.99 per month
+
+|Instance Types| Average CPU usage per month| Billing Option | Monthly Cost|
+| --- |
+| c5.xlarge | ~20 | On-Demand | ~ $ 24.99 |
+
 * [Amazon EC2 pricing](https://aws.amazon.com/ec2/pricing/)
 * [Basic Agent Usage](https://docs.datadoghq.com/agent/basic_agent_usage/?tab=httpcompressionlevel6)
 
