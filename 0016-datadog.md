@@ -29,3 +29,8 @@ Monitoring with Lambda Insights cost (monthly): 23.077 USD
 ## Decision Outcome
 
 * To choose Enhanced or Native, we need to know how many metrics there will be, how many bases there will be, how often logs need to be processed
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
