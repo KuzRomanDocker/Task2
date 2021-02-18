@@ -32,7 +32,7 @@ We want to decide to use Enhanced monitoring with Lambda functions or use the da
 * For example:
 
 |Instance Types| Average CPU usage per month| Billing Option | Monthly Cost|
-| --- |
+| --- | --- | --- | --- |
 | c5.xlarge | ~20 | On-Demand | ~ $ 24.99 |
 
 * [Amazon EC2 pricing](https://aws.amazon.com/ec2/pricing/)
