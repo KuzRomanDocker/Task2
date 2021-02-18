@@ -34,6 +34,7 @@ Monitoring with Lambda Insights cost (monthly): 23.077 USD
 |Number of requests per function|
 | --- |
 |15 per second * (60 seconds in a minute x 60 minutes in an hour x 730 hours in a month) = 39420000 per month|
+
 |Pricing calculations|
 | --- |
 |1 functions x 8 metrics per function = 8.00 Lambda insights metrics|
