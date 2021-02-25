@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
               sh '''#!/bin/bash
-                    echo "I passed the AWS"                  
+                    echo "I passed exam AWS"                  
                    '''
             }
         }
