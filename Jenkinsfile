@@ -8,8 +8,8 @@ pipeline {
             }
             steps {
               sh '''#!/bin/bash
-                    MSG=$(git log -1 --format=%B)
-                    rsync -avr --exclude='.git' --exclude='.github' https://github.com/KuzRomanDocker/PROD.git
+                     MSG=$(git log -1 --format=%B)
+                    rsync -avr --exclude='.git' --exclude='.github' git@github.com:KuzRomanDocker/PROD.git
                     git checkout release-candidate
                     git config user.email ${BUILD_REQUESTEDFOREMAIL}
                     git config user.name ${BUILD_REQUESTEDFOR}
