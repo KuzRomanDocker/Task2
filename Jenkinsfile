@@ -10,7 +10,6 @@ pipeline {
               sh '''#!/bin/bash
                     MSG=$(git log -1 --format=%B)
                     rsync -avr --exclude='.git' --exclude='.github' https://github.com/KuzRomanDocker/Task3.git
-                    cd target-repo
                     git checkout release-candidate
                     git config user.email ${BUILD_REQUESTEDFOREMAIL}
                     git config user.name ${BUILD_REQUESTEDFOR}
