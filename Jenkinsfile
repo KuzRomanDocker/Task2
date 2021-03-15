@@ -16,6 +16,10 @@ pipeline {
                     git checkout release-candidate
                     git config user.email ${BUILD_REQUESTEDFOREMAIL}
                     git config user.name ${BUILD_REQUESTEDFOR}
+                    git remote -v
+                    git fetch upstream
+                    git checkout master
+                    git merge upstream/master
                     git add .
                     git commit -m "${MSG}"
                     git tag -a $BUILD_ID -m "Released by ${BUILD_REQUESTEDFOR}"
