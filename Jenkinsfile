@@ -19,7 +19,7 @@ pipeline {
                     git add .
                     git commit -m "${MSG}"
                     git tag -a $BUILD_ID -m "Released by ${BUILD_REQUESTEDFOR}"
-                    git push --force origin Task2
+                    git push --force Task2
                    '''
             
         }
